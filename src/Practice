@@ -1,0 +1,28 @@
+Day-4 on react.
+
+Topic:
+ADDING INTERACTIVITY 
+
+->Responding to the events
+=React lets you add event handlers to your JSX. Event handlers are your own functions that will be triggered in response to user interactions like clicking, hovering, focusing on form inputs, and so on.
+
+key words:
+
+->react events are written in Camelcase. for eg: onclick
+->react event handlers are written inside curly braces
+eg:
+onClick ={shot} instead of onClick = "shoot()"
+
+UseState:
+its a hook in react that use a destructuring method to store two elements.
+e.g
+const[index, setIndex] = useState(0)
+
+where index is ----
+and 
+setIndex is the updater function that trigger the component
+
+Use a state variable when a component needs to “remember” some information between renders.
+State variables are declared by calling the useState Hook.
+Hooks are special functions that start with use. They let you “hook into” React features like state.
+
