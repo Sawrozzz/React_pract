@@ -7,7 +7,7 @@ export default function Box({ children, color, position, onMove }) {
     e.target.setPointerCapture(e.pointerId);
     setLastCoordinates({
       x: e.clientX,
-      y: e.clientY,
+      y: e.clientY
     });
   }
 
@@ -15,7 +15,7 @@ export default function Box({ children, color, position, onMove }) {
     if (lastCoordinates) {
       setLastCoordinates({
         x: e.clientX,
-        y: e.clientY,
+        y: e.clientY
       });
       const dx = e.clientX - lastCoordinates.x;
       const dy = e.clientY - lastCoordinates.y;
